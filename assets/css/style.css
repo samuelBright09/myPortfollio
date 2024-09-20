@@ -113,10 +113,8 @@ nav.sticky i {
 
 #typewriter-text {
     border-right: 2px solid white;
-    font-family: 'Courier New', Courier, monospace;
     white-space: nowrap;
     /* overflow: hidden; */
-    display: inline-block;
     width: 0;
     animation: blink-caret 0.75s step-end infinite;
   }
@@ -166,6 +164,11 @@ nav.sticky i {
     color: rgba(255, 255, 255, 0.932);
 }
 
+.hero-text-container p {
+    padding-top: 5%;
+    font-size: 30px;
+}
+
 .my-name {
     font-size: 6rem;
     line-height: 1;
@@ -188,6 +191,7 @@ nav.sticky i {
     border-radius: 5px;
     padding: 4px 10px 4px 10px;
 }
+
 
 
 
